@@ -1,0 +1,27 @@
+1. Open your Student Attendance App project in snack. Near the project, in 3 dot menu, you see Export Project option.
+2. Please click on Export Project option.
+3. Extract the zip in any folder in your machine. (Eg) In C:\React\StudentAttendanceApp.
+4. Open Command Prompt. Navigate to the directory where there is the project folder using cd. 
+(eg) cd C:\React\StudentAttendanceApp
+5. type expo install and press Enter. It will install all necessary packages for your app. It will take some time.
+6. expo start to check your output
+(computer and phone must be in same network.) use the QR Code in expo client app.
+ or check the option Run in Web Browser.
+
+
+Build :
+7. Use Ctrl + C to stop metro bundler if running when expo start was used.
+9. add a unique identifier for playstore and appstore to remember our app with. in app.json file, put the following entry
+"android" : {
+    "package" : "com.testuser.attendance"
+}
+"ios" : {
+   "supportsTablet" : true,
+   "bundleIdentifier" : "com.testuser.attendance"
+}
+
+10. expo build:android for apk
+    expo build:ios for ipa.
+It will prompt for apk or ipa option, choose one. It will also prompt for Key store. Choose Generate new KeyStore.
+- It will take some time.
+11. Once Build completes, get the file(apk or ipa) from the link it shows in command prompt and upload to Github and submit.
