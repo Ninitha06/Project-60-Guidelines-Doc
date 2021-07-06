@@ -21,8 +21,8 @@ Build :
 }
 
 10.  In Command Prompt, type the following command.
-   expo build:android for apk (or)
-    expo build:ios for ipa.
+   expo build:android  and press Enter for apk (or)
+    expo build:ios and press Enter for ipa.
 It will prompt for apk or ipa option, choose one. It will also prompt for Key store. Choose Generate new KeyStore.
 - It will take some time.
 11. Once Build completes, get the file(apk or ipa) from the link it shows in command prompt and upload to Github and submit.
