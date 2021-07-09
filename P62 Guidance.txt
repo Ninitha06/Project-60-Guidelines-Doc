@@ -3,7 +3,7 @@
 3. Extract the zip in any folder in your machine. (Eg) In C:\React\StudentAttendanceApp.
 4. Open Command Prompt. Navigate to the directory where there is the project folder using cd. 
 (eg) cd C:\React\StudentAttendanceApp
-5. type expo install and press Enter. It will install all necessary packages for your app. It will take some time.
+5. type npm install and press Enter. It will install all necessary packages for your app. It will take some time.
 6. expo start to check your output
 (computer and phone must be in same network.) use the QR Code in expo client app.
  or check the option Run in Web Browser.
