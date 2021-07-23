@@ -1,0 +1,13 @@
+1. Fork the given repository
+2. Go to command prompt, go to the folder in which you want to work.
+Example : cd c:\ninitha\students
+3. Get the url of the given Quirk repository from the green button in GitHub.
+4. In command prompt, git clone url(the one u got in above step)
+5. Make any changes.
+6. In command prompt, stage the changes. If you have made changes in App.js
+git add "App.js"
+7. Commit changes
+git commit -m "Message"
+8. To push the changes to remote repository, in  ommand prompt 
+git push
+9. Create pull request in GitHub.
